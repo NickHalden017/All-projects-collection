@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samadbek Shuhratov - Links</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font: Inter -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Gradient background for extra style */
+            background: radial-gradient(circle at top, #1E3A8A 0%, #0F172A 70%); 
+            color: #E2E8F0; /* Slate 200 */
+        }
+        /* Primary container for Taplink style */
+        .link-container {
+            width: 100%;
+            max-width: 420px; /* Max width matching a typical mobile screen */
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        .animated-button {
+            transition: all 0.2s ease-in-out;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
+        }
+        .animated-button:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.4), 0 4px 6px -4px rgba(79, 70, 229, 0.2);
+            background-color: #4338CA; /* Indigo 700 */
+        }
+    </style>
+</head>
+<body class="selection:bg-indigo-600 selection:text-white min-h-screen flex items-center justify-center">
+
+    <div class="link-container">
+        
+        <!-- Profile Section -->
+        <header class="text-center mb-8 pt-10">
+            <!-- Profile Picture (Placeholder) -->
+            <div class="mx-auto w-32 h-32 bg-slate-700 rounded-full mb-4 border-4 border-indigo-400 flex items-center justify-center overflow-hidden">
+                <!-- You can insert your actual photo here. Currently, your first initial is displayed. -->
+                <span class="text-6xl font-extrabold text-white">S</span>
+                <!-- <img src="URL_PROFIL_RASMI" alt="Profile Picture" class="w-full h-full object-cover"> -->
+            </div>
+            
+            <h1 class="text-3xl font-extrabold text-white mb-1">Samadbek Shuhratov</h1>
+            <p class="text-indigo-300 text-lg font-medium">Web Developer | Project Owner</p>
+        </header>
+
+        <!-- Link Buttons -->
+        <nav class="space-y-4">
+            
+            <!-- 1. All Projects -->
+            <a href="projects.html" class="animated-button w-full block py-4 bg-indigo-600 text-white font-bold rounded-xl text-center text-lg uppercase tracking-wider">
+                All My Projects
+            </a>
+
+            <!-- 2. CV / Resume -->
+            <a href="https://nickhalden017.github.io/Portfolio-Web-Page/" target="_blank" class="animated-button w-full block py-4 bg-slate-700 text-white font-bold rounded-xl text-center text-lg uppercase">
+                 CV / Resume
+            </a>
+            
+            <!-- 3. GitHub -->
+            <a href="https://github.com/NickHalden017" target="_blank" class="animated-button w-full block py-4 bg-slate-700 text-white font-bold rounded-xl text-center text-lg">
+                GitHub Profile
+            </a>
+
+            <!-- 4. Telegram Contact -->
+            <a href="https://t.me/shukhratov_0101" target="_blank" class="animated-button w-full block py-4 bg-slate-700 text-white font-bold rounded-xl text-center text-lg">
+                Contact via Telegram
+            </a>
+
+            <!-- 5. Email -->
+            <a href="mailto:samadbekshuhratov@gmail.com" class="animated-button w-full block py-4 bg-slate-700 text-white font-bold rounded-xl text-center text-lg">
+                Send Email
+            </a>
+            
+        </nav>
+
+        <!-- Footer -->
+        <footer class="mt-10 text-center text-slate-500 text-sm">
+            <p>Made with by Samadbek Shuhratov</p>
+        </footer>
+
+    </div>
+</body>
+</html>
