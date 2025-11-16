@@ -21,12 +21,6 @@ It serves as a central hub where all important links — projects, resume, GitHu
 
 ---
 
-## 📂 Project Structure
-
-
-
----
-
 ## 🔗 Links Included
 - **All My Projects** → Internal link (`projects.html`)  
 - **CV / Resume** → [Portfolio Web Page](https://nickhalden017.github.io/Portfolio-Web-Page/)  
