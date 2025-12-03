@@ -25,7 +25,6 @@ It serves as a central hub where all important links — projects, resume, GitHu
 - **All My Projects** → Internal link (`projects.html`)  
 - **CV / Resume** → [Portfolio Web Page](https://nickhalden017.github.io/Portfolio-Web-Page/)  
 - **GitHub Profile** → [@NickHalden017](https://github.com/NickHalden017)  
-- **Telegram Contact** → [@shukhratov_0101](https://t.me/shukhratov_0101)  
 - **Send Email** → [samadbekshuhratov@gmail.com](mailto:samadbekshuhratov@gmail.com)  
 
 ---
